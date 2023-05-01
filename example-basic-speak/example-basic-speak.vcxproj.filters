@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxEspeakSynth\src\ofxEspeakSynth.cpp">
+      <Filter>addons\ofxEspeakSynth\src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons">
+      <UniqueIdentifier>{71834F65-F3A9-211E-73B8-DC85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxEspeakSynth">
+      <UniqueIdentifier>{AE365445-2FDF-87BC-02C1-1CBD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxEspeakSynth\src">
+      <UniqueIdentifier>{B934686D-1E78-A912-159C-60B7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxEspeakSynth\libs">
+      <UniqueIdentifier>{4FBAD74B-418D-F0E4-8025-5B8D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxEspeakSynth\libs\espeak">
+      <UniqueIdentifier>{F8D8306B-48BC-E397-86D1-2DB2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxEspeakSynth\libs\espeak\include">
+      <UniqueIdentifier>{13ACD65D-F8D2-EEB6-EEA3-D84E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxEspeakSynth\libs\espeak\include\compat">
+      <UniqueIdentifier>{5B138AD8-0150-11C5-5068-9EEE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxEspeakSynth\libs\espeak\include\compat\sys">
+      <UniqueIdentifier>{D786ACA3-F43B-C8CA-2A45-3DF3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxEspeakSynth\libs\espeak\include\espeak-ng">
+      <UniqueIdentifier>{0E6FD39E-E048-2E0D-7072-2465}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\addons\ofxEspeakSynth\src\ofxEspeakSynth.h">
+      <Filter>addons\ofxEspeakSynth\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxEspeakSynth\src\Utility.h">
+      <Filter>addons\ofxEspeakSynth\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxEspeakSynth\libs\espeak\include\compat\endian.h">
+      <Filter>addons\ofxEspeakSynth\libs\espeak\include\compat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxEspeakSynth\libs\espeak\include\compat\getopt.h">
+      <Filter>addons\ofxEspeakSynth\libs\espeak\include\compat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxEspeakSynth\libs\espeak\include\compat\math.h">
+      <Filter>addons\ofxEspeakSynth\libs\espeak\include\compat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxEspeakSynth\libs\espeak\include\compat\stdint.h">
+      <Filter>addons\ofxEspeakSynth\libs\espeak\include\compat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxEspeakSynth\libs\espeak\include\compat\stdio.h">
+      <Filter>addons\ofxEspeakSynth\libs\espeak\include\compat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxEspeakSynth\libs\espeak\include\compat\string.h">
+      <Filter>addons\ofxEspeakSynth\libs\espeak\include\compat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxEspeakSynth\libs\espeak\include\compat\strings.h">
+      <Filter>addons\ofxEspeakSynth\libs\espeak\include\compat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxEspeakSynth\libs\espeak\include\compat\sys\stat.h">
+      <Filter>addons\ofxEspeakSynth\libs\espeak\include\compat\sys</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxEspeakSynth\libs\espeak\include\compat\unistd.h">
+      <Filter>addons\ofxEspeakSynth\libs\espeak\include\compat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxEspeakSynth\libs\espeak\include\compat\wchar.h">
+      <Filter>addons\ofxEspeakSynth\libs\espeak\include\compat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxEspeakSynth\libs\espeak\include\compat\wctype.h">
+      <Filter>addons\ofxEspeakSynth\libs\espeak\include\compat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxEspeakSynth\libs\espeak\include\espeak-ng\encoding.h">
+      <Filter>addons\ofxEspeakSynth\libs\espeak\include\espeak-ng</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxEspeakSynth\libs\espeak\include\espeak-ng\espeak_ng.h">
+      <Filter>addons\ofxEspeakSynth\libs\espeak\include\espeak-ng</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxEspeakSynth\libs\espeak\include\espeak-ng\speak_lib.h">
+      <Filter>addons\ofxEspeakSynth\libs\espeak\include\espeak-ng</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="icon.rc" />
+  </ItemGroup>
+</Project>

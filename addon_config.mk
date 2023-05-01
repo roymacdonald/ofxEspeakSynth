@@ -59,7 +59,20 @@ common:
 	# when parsing the file system looking for libraries exclude this for all or
 	# a specific platform
 	# ADDON_LIBS_EXCLUDE =
+vs:
+	# After compiling copy the following dynamic libraries to the executable directory
+	# only windows visual studio
+	ADDON_DLLS_TO_COPY = libs/espeak/lib/vs/x64/libespeak-ng.dll
 	
+
+	ADDON_INCLUDES = libs/espeak/include
+	ADDON_INCLUDES += src
+	ADDON_INCLUDES_EXCLUDE = libs/espeak/lib
+	ADDON_INCLUDES_EXCLUDE += libs/espeak/lib/%
+
+
+
+
 linux64:
 	ADDON_LDFLAGS=-lportaudio
 	ADDON_LDFLAGS+=-lespeak

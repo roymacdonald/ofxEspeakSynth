@@ -46,7 +46,7 @@
 
 */
 
-#include <espeak/speak_lib.h>
+#include "espeak-ng/speak_lib.h"
 #include "ofMain.h"
 #include "Utility.h"
 

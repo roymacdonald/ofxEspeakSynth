@@ -1,4 +1,5 @@
 #include "ofMain.h"
+#include "espeak-ng/speak_lib.h"
 
 class Utility
 {
